@@ -5,6 +5,6 @@ Select
   Initcap(["Coluna De Texto"])
 From 
   ["Sua Tabela"]
-Order By 
+Order By Initcap(["Coluna De Texto"]) DESC
 
 --O Order By Ordena A Sua Consulta Usando Como Paramêtro A Coluna Que Você Escolheu Em Ordem Crescente (ASC) Ou Decrescente (DESC)
