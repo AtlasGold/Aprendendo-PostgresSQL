@@ -5,7 +5,7 @@ select
 from
   ["sua tabela"]
  ````
- essa consulta vai irá converter suas strings de texto escolhidas para minusculo e mostrar na tela
+ essa consulta irá converter suas strings de texto escolhidas para minusculo e mostrar na tela
 
 
 
