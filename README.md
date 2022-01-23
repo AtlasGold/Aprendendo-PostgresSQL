@@ -3,9 +3,9 @@ Quando eu descobri sobre banco de dados e suas funcionalidades além do âmbito 
 
 
 
-Estou a disposição para tirar dúvidas no meu instagram : [@AtlasGold31](https://www.instagram.com/atlas_gold31/)
+Estou a disposição para tirar dúvidas no meu discord : AtlasGold#2337 
 
-Vou deixar meu linkedin aqui também, vai que um recrutador me acha : [Luan Vinicius](https://www.linkedin.com/in/luan-vinicius31/)
+Vou deixar meu linkedin aqui, vai que um recrutador me acha : [Luan Vinicius](https://www.linkedin.com/in/luan-vinicius31/) 
 
 ## O que é isso?
 Um repositório onde tentarei mostrar exercícios e dicas a respeito de postgresSQL, já que é o que eu tenho estudado recentemente. Também é uma forma de sintetizar todo meu aprendizado em um local onde eu possa ajudar os outros.
