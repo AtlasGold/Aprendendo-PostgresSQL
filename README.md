@@ -13,7 +13,7 @@ Um repositório onde tentarei mostrar exercícios e dicas a respeito de postgres
 ## Público alvo
 Pessoas que já tem alguma noção de programação e entendem como funciona um SGBD, não precisam ser um programador experiente para fazer entender o que estou tentando passar, mas entender pelo menos que em SQL o código é lido de baixo pra cima é bem legal.
 
-## Quero contribuir! 
+## Quer contribuir! 
 Ótimo! Quanto mais pessoas ajudando melhor, deixem seus pull request sem medo.
 
 ## Tá bom, eu quero começar!!!
