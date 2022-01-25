@@ -17,7 +17,7 @@ Pessoas que já tem alguma noção de programação e entendem como funciona um 
 Ótimo! Quanto mais pessoas ajudando melhor, deixem seus pull request sem medo.
 
 ## Tá bom, eu quero começar!!!
-Tem razão já te enrolei de mais, coloca uma musiquinha de fundo, [clica aqui](Tutoriais) e manda brasa
+Tem razão já te enrolei demais, coloca uma musiquinha de fundo, [clica aqui](Tutoriais) e manda brasa
 
 ![postgresql](https://user-images.githubusercontent.com/72756630/150540461-df47ef20-e38d-44b1-a30b-7418fa1a1085.png)
 
