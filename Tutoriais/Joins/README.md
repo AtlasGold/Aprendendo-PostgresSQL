@@ -86,3 +86,4 @@ id  name       id     name
 
 4   Spaghetti  null   null
 ````
+O Where mostrou apenas os dados da tabela A que não correspondem na tabela B
