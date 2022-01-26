@@ -114,4 +114,32 @@ id  name       id     name
 ````
 O Where mostrou apenas os dados da tabela A que não correspondem na tabela B
 
+## Full Join(Apenas os dados que são unicos em cada tabela)
+### O oposto do Full Join normal, irá mostrar apenas os dados que existem unicamente em cada uma das tabelas.
+
+
+![image](https://user-images.githubusercontent.com/72756630/151263057-07349ee3-5fe8-41e7-af03-ba782f8b5d4b.png)
+
+```` sql
+SELECT * FROM TabelaA
+FULL OUTER JOIN TabelaB
+ON TabelaA.name = TabelaB.name
+WHERE TabelaA.id IS null
+OR TabelaB.id IS null
+````
+
+### Mostrará : 
+````
+id    name       id    name
+
+2     Monkey     null  null
+
+4     Spaghetti  null  null
+
+null  null       1     Rutabaga
+
+null  null       3     Darth Vader
+````
+
+Mostrando Apenas os dados que não existem em ambas ao mesmo tempo, pode ver que a linha Ninja e Pirate sumiram
 
