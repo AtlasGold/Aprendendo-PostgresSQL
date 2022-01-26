@@ -2,7 +2,7 @@
 ## Para que serve ?
 Os joins mesclam duas ou mais tabelas (normalmente as colunas em comum são respectivamente a chave primária e chave estrangeira)
 ## Como funcionam ?
-Depende de quais informações de cada tabela você vai precisar, isso ramifica os joins em : ``Inner Join``, ``Left Join``, ``Right Join`` e ``Full Join``.
+Depende de quais informações de cada tabela você vai precisar, isso ramifica os joins em : ``Inner Join``, ``Left Join``, ``Right Join``(mesma coisa do left) e ``Full Join``.
 ## Vamos ver uns exemplos usando estas duas tabelas: 
 ``` 
 TabelaA        TabelaB 
