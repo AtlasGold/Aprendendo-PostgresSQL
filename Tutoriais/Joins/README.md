@@ -65,12 +65,12 @@ Os dados que não existiam em uma das tabelas foi chamado de ``null``
 
 Não exisita o registro ```Monkey``` na tabela B, tanto a coluna ID quando a coluna Name ficou como ``null``
 
-## Left Join
+## Left Join (Apenas os registros unicos da Esquerda)
 ### Mostra os dados da Tabela A, com os registros correspondentes (quando disponíveis) na Tabela B.
 Se não houver correspondência, o lado direito conterá nulo.
 
 
-![image](https://user-images.githubusercontent.com/72756630/151260837-b003d98a-20ed-4bbf-8226-d99359b1c476.png)
+![image](https://user-images.githubusercontent.com/72756630/151262201-84f9e7c9-6531-4530-b6b8-c5ae4fe11d61.png)
 ````sql
 
 SELECT * FROM TabelaA
@@ -87,3 +87,5 @@ id  name       id     name
 4   Spaghetti  null   null
 ````
 O Where mostrou apenas os dados da tabela A que não correspondem na tabela B
+
+
