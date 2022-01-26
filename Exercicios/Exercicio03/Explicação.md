@@ -6,8 +6,9 @@ FROM ["Tabela 1"] as A
 ON A.Coluna1 = B.Coluna2
 ````
 
- Usaremos o `FULL JOIN`  para mesclar 2 tabelas. É preciso dar um apelido a cada tabela que você esta importante, pra isso usamos o `AS` logo 
- após a escrever ela.
+ Usaremos o `FULL JOIN`  para mesclar 2 tabelas. É preciso dar um apelido a cada tabela que você esta importando, pra isso usamos o `AS` logo 
+ após a escrever ela. Isto serve para diferenciar as colunas de cada, vamos supor que nas duas tabelas existem as colunas ID, diferenciamos ultilizando 
+ o nome da tabela ou apelido que você deu antes da coluna, desta forma ```tabela."coluna" ``` dentro do select
  
  Uma parte importante é *sincroninzação* das tabelas usando a clausula ``ON``.
  
