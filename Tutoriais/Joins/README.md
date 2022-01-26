@@ -65,9 +65,35 @@ Os dados que não existiam em uma das tabelas foi chamado de ``null``
 
 Não exisita o registro ```Monkey``` na tabela B, tanto a coluna ID quando a coluna Name ficou como ``null``
 
-## Left Join (Apenas os registros unicos da Esquerda)
+## Left Join 
 ### Mostra os dados da Tabela A, com os registros correspondentes (quando disponíveis) na Tabela B.
 Se não houver correspondência, o lado direito conterá nulo.
+
+
+![image](https://user-images.githubusercontent.com/72756630/151260837-b003d98a-20ed-4bbf-8226-d99359b1c476.png)
+````sql
+
+SELECT * FROM TabelaA
+LEFT OUTER JOIN TabelaB
+ON TabelaA.name = TabelaB.name
+
+````
+### Deve exibir assim: 
+
+````
+id  name       id    name
+--  ----       --    ----
+1   Pirate     2     Pirate
+2   Monkey     null  null
+3   Ninja      4     Ninja
+4   Spaghetti  null  null
+````
+Mostrou os dados Da tabela da Esquerda(Tabela A) e as que não existiam na tabela da direita (Tabela B) os valores ficaram nulos
+
+
+## Left Join (Apenas os registros unicos da Esquerda)
+### Para produzir o conjunto de registros apenas na Tabela A, mas não na Tabela B. 
+executamos a mesma junção externa esquerda e excluímos os registros que não queremos do lado direito por meio de uma cláusula where.
 
 
 ![image](https://user-images.githubusercontent.com/72756630/151262201-84f9e7c9-6531-4530-b6b8-c5ae4fe11d61.png)
