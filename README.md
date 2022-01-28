@@ -11,7 +11,7 @@ Vou deixar meu linkedin aqui, vai que um recrutador me acha : [Luan Vinicius](ht
 Um repositório onde tentarei mostrar exercícios e dicas a respeito de postgresSQL, já que é o que eu tenho estudado recentemente. Também é uma forma de sintetizar todo meu aprendizado em um local onde eu possa ajudar os outros.
 
 ## Público alvo
-Pessoas que já tem alguma noção de programação e entendem como funciona um SGBD, não precisam ser um programador experiente para fazer entender o que estou tentando passar, mas entender pelo menos que em SQL o código é lido de baixo pra cima é bem legal.
+Pessoas que já tem alguma noção de programação e entendem como funciona um SGBD, não precisam ser um programador experiente para entender o que estou tentando passar, mas entender pelo menos que em SQL o código é lido de baixo pra cima é bem legal.
 
 ## Quero contribuir! 
 Ótimo! Quanto mais pessoas ajudando melhor, deixem seus pull request sem medo.
